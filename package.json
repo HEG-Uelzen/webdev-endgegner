@@ -4,12 +4,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
     "postcss": "^8.4.4",
+    "prettier": "2.5.1",
     "tailwindcss": "^3.0.0",
     "vite": "^2.7.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md,html}": "prettier --write"
   }
 }
