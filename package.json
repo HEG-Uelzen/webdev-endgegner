@@ -18,5 +18,8 @@
   },
   "lint-staged": {
     "*.{js,css,md,html}": "prettier --write"
+  },
+  "dependencies": {
+    "alpinejs": "^3.7.0"
   }
 }
