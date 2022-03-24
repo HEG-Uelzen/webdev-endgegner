@@ -7,4 +7,4 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
-new ghostCursor();
+new emojiCursor();
