@@ -8,6 +8,6 @@ window.Alpine = Alpine;
 Alpine.start();
 
 new emojiCursor();
-// Anomations
+// Animations
 import { animate } from "motion";
 animate("#pulse", { transform: "rotate(360deg)" }, { repeat: Infinity });
