@@ -20,6 +20,7 @@
     "*.{js,css,md,html}": "prettier --write"
   },
   "dependencies": {
-    "alpinejs": "^3.7.0"
+    "alpinejs": "^3.7.0",
+    "motion": "^10.8.1"
   }
 }

@@ -17,7 +17,7 @@
         Erfrischungsgetränk!
       </h1>
       <div class="grid grid-cols-10">
-        <img src="./bilder/Fluffy_Logo_Animation.gif" width="60%" />
+        <img id="pulse" src="./bilder/Fluffy_Logo_Animation.gif" width="60%" />
         <img src="./bilder/Fluffy_Logo_Animation.gif" width="60%" />
         <img src="./bilder/Fluffy_Logo_Animation.gif" width="60%" />
         <img src="./bilder/Fluffy_Logo_Animation.gif" width="60%" />
@@ -157,9 +157,75 @@
         </button>
         <aside x-show="open">Richtig! Die Lösung ist 🌲</aside>
       </section>
+      <hr class="my-3" />
+      <!--Rezepte-->
+      <p class="mb-1 text-5xl">Rezepte</p>
+      <p class="text-lg mb-2.5">
+        Fluffy-Limonade entspricht dem Trend nach natürlicher und gesunder
+        Ernährung: Ein alkoholfreies Erfrischungsgetränk, das durch auf
+        natürliche Art hergestellt wird. Fluffy-Limonade ist von Haus aus
+        calciumreich aber natriumarm. Mit den enthaltenen Mineralien stellt es
+        ein wichtigen Baustein zur gesunden Ernährung dar, und dieses Tag für
+        Tag Jüngste Forschungsergebnisse haben gezeigt, dass Fluffylimonade
+        überaus geeignet ist die tägliche Versorgung mit Mineralstoffen und
+        Spurenelementen sicherzustellen.
+      </p>
+      <p class="mb-1 text-xl">Der magische Trunk</p>
+      <p class="text-lg mb-2.5">
+        Hierfür werden eine frische Apfelsine, ein Apfel, ein wenig Zimt, etwas
+        Ingwer und Fluffy Orangenlimonade gebraucht. Apfelsine und Apfel schälen
+        und klein schneiden und mit der Fluffy Orangenlimonade verrühren. Zum
+        Abschluss mit Zimt und Ingwer verfeinern.
+      </p>
+      <p class="mb-1 text-xl">Der schnelle Läufer</p>
+      <p class="text-lg mb-2.5">
+        Hierfür benötigen Sie eine Limette, etwas Kümmel und Fluffy Bitterlemon.
+        Limette waschen und kleinschneiden, etwas Kümmel hinzugeben und zum
+        Abschluss mit Fluffy Bitterlemon auffüllen. Mmmh, das schmeckt und gibt
+        starke Beine.
+      </p>
+      <p class="mb-1 text-xl">Der Erfrischer</p>
+      <p class="text-lg mb-2.5">
+        Hierfür benötigen Sie eine Zitrone, viel Eis und eine Dose
+        Fluffygetränkedose (Zitrone oder Orange). Zitrone durchschneiden und
+        ausdrücken, Eis bis zum Glasrand und zum Abschluss mit Fluffy aufgießen.
+        Das erfrischt für den ganzen Tag!
+      </p>
+      <hr class="my-3" />
+      <p class="mb-1 text-5xl">Handelspartner</p>
+      <p class="text-lg mb-2.5">Wir arbreiten noch daran!</p>
+      <picture>
+        <source srcset="./bilder/baustelle.webp" type="image/webp" />
+        <source srcset="./bilder/baustelle.png" type="image/png" />
+        <img src="baustelle.png" />
+      </picture>
+      <hr class="my-3" />
+      <p class="mb-1 text-5xl">Impressum</p>
+      <p class="text mb-2.5">
+        Fluffy GmbH <br />
+        Geschäftsführer: Arnold Weißenegger<br />
+        Fon: 040 / 999 888<br />
+        Email: arnold@gmx.de<br />
+        Fluffy online <br />
+      </p>
+      <p class="mb-1 text-5xl">Hier noch ein paar hilfreiche Links</p>
+      <p class="text-lg mb-2.5">
+        Ich hatte gerade langeweile deswegen hier noch irgendwelche Links
+      </p>
+      <p class="">
+        <a href="http://www.google.de">Google</a><br />
+        <a href="http://www.amazon.ed">Amazon</a><br />
+        <a href="http://www.ebay.de">Ebay</a><br />
+      </p>
+      <picture>
+        <source srcset="./bilder/baustelle.webp" type="image/webp" />
+        <source srcset="./bilder/baustelle.png" type="image/png" />
+        <img src="baustelle.png" />
+      </picture>
+      <hr class="my-3" />
     </main>
     <footer x-init="date = new Date()" class="w-full text-right">
-      Copyright ©
+      Copyright
 
       <span x-text="date.getFullYear()"></span>
     </footer>
