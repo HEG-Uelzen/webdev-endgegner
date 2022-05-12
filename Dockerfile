@@ -14,4 +14,4 @@ WORKDIR /var/www/html/endgegner
 RUN npm i
 RUN npm run build
 
-RUN mv -R /var/www/html/endgegner/dist /usr/local/apache2/htdocs/
+RUN cp -R /var/www/html/endgegner/dist/* /usr/local/apache2/htdocs/
