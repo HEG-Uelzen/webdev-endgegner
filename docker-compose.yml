@@ -1,0 +1,19 @@
+version: '3.4'
+
+networks:
+  web:
+    external: true
+
+services:
+  endgegner:
+    image: httpd:2.4
+    volumes:
+      - ./dist:/usr/local/apache2/htdocs/
+    restart: always
+    labels:
+      - traefik.http.routers.cms.rule=Host(`endgegner.your-domain.com`)
+      - traefik.http.routers.cms.tls=true
+      - traefik.http.routers.cms.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - web
