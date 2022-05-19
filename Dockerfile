@@ -1,6 +1,7 @@
 FROM httpd:2.4-alpine
 
 # install nodejs
+RUN apk update
 RUN apk add nodejs npm
 
 # copy project files to the container
