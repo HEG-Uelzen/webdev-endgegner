@@ -4,7 +4,7 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: curl -f https://get.pnpm.io/v6.js | node - add --global pnpm && pnpm install
+  - init: curl -f https://get.pnpm.io/v7.js | node - add --global pnpm && pnpm install
     command: |
       pnpm dev
 github:
